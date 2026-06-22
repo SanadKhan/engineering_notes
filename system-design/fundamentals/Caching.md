@@ -42,6 +42,10 @@ Client → App → Cache → Database
 
 ## Limitations
 
+- Cache invalidation is hard
+- Stale data risk
+- Extra memory cost
+
 ## Real-world examples
 
 - Redis
@@ -57,7 +61,15 @@ Client → App → Cache → Database
 
 ## Takeaway
 
-Use caching when read-heavy systems have repeated data access.
+Use caching:
+1- When read-heavy systems have repeated data access.
+2- Data changes are often.
+3- Slight stale data is acceptable.
+
+Avoid cache when:
+1- Data changes constantly.
+2- Strong consistency is needed.
+3- Memory budget is limited.
 
 ## Tags
 
