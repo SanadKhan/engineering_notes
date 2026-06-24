@@ -78,13 +78,13 @@ class Solution {
 
 ## Similar Problems
 
-- [[ ]]
+- [[Valid Anagram]]
     
 
 ## Pattern Notes
 
-[[ ]]
+[[Hashing]]
 
 ## Tags
 
-#easy #dsa #hashing
+#easy #dsa #hashing #contains-duplicate  
