@@ -7,7 +7,7 @@ Keywords:
 - substring
 
 Usually:
-O(n)
+Time O(n), Space O(1)
 
 Examples:
 - longest unique substring

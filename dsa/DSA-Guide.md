@@ -1,4 +1,10 @@
-# 1. Time Complexity (Definition)
+
+---
+# Time and Space Complexity
+
+--- 
+
+## 1. Time Complexity (Definition)
 
 Time complexity tells how runtime grows as input `n` grows.
 
@@ -269,7 +275,7 @@ Common in:
 
 ---
 
-# Example 5 (Strings)
+# Example 4 (Strings)
 
 ```js
 for(let i=0; i<n; i++) {   
